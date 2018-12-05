@@ -1,0 +1,31 @@
+@import './variables.less';
+@import './mixins.less';
+
+.card-container {
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  padding: 16px 16px 0;
+  background-color: @light-grey-7;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  flex: @flex-setting;
+}
+
+.card-list {
+  padding: 0 25%;
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+.card-header {
+  .title {
+    margin: 0 0 16px 0;
+  }
+}
+
+.title-bottom-margin {
+  margin-bottom: 16px;
+}
